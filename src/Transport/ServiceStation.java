@@ -1,5 +1,8 @@
 package Transport;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class ServiceStation<T extends Transport> {
 
     Queue<T> queueTransport = new LinkedList<>();

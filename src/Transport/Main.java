@@ -56,14 +56,14 @@ public class Main {
         allTransports.add(busThree);
         allTransports.add(busFour);
 
-        Mechanic mechanicOne = new Mechanic("Механик 1", "Компания 1", TransportType.CAR);
-        Mechanic mechanicTwo = new Mechanic("Механик 2", "Компания 1", TransportType.BUS);
-        Mechanic mechanicThree =new Mechanic("Механик 3", "Компания 1", TransportType.TRUCK);
-        Mechanic mechanicFour =new Mechanic("Механик 4", "Компания 2", TransportType.CAR);
-        Mechanic mechanicFife =new Mechanic("Механик 5", "Компания 2", TransportType.TRUCK);
-        Mechanic mechanicSix = new Mechanic("Механик 6", "Компания 3", TransportType.BUS);
-        Mechanic mechanicSeven =new Mechanic("Механик 7", "Компания 3", TransportType.CAR);
-        Mechanic mechanicEight =new Mechanic("Механик 8", "Компания 4", TransportType.BUS);
+        Mechanic mechanicOne = new Mechanic("Механик Иванов", "Компания №1", TransportType.CAR);
+        Mechanic mechanicTwo = new Mechanic("Механик Петров", "Компания №1", TransportType.BUS);
+        Mechanic mechanicThree =new Mechanic("Механик Сидоров", "Компания №1", TransportType.TRUCK);
+        Mechanic mechanicFour =new Mechanic("Механик Гриб", "Компания №2", TransportType.CAR);
+        Mechanic mechanicFife =new Mechanic("Механик Дуб", "Компания №2", TransportType.TRUCK);
+        Mechanic mechanicSix = new Mechanic("Механик Лось", "Компания №3", TransportType.BUS);
+        Mechanic mechanicSeven =new Mechanic("Механик Контуженный", "Компания №3", TransportType.CAR);
+        Mechanic mechanicEight =new Mechanic("Механик Борщ", "Компания №4", TransportType.BUS);
 
         lada.getMechanicArrayList().add(mechanicOne);
         lada.getMechanicArrayList().add(mechanicTwo);
@@ -75,12 +75,12 @@ public class Main {
         volvo.getMechanicArrayList().add(mechanicSeven);
         volvo.getMechanicArrayList().add(mechanicEight);
 
-        Sponsor sponsorOne = new Sponsor("Спонсор 1", 10_000_000);
-        Sponsor sponsorTwo = new Sponsor("Спонсор 2", 10_000_000);
-        Sponsor sponsorThree = new Sponsor("Спонсор 3", 10_000_000);
-        Sponsor sponsorFour = new Sponsor("Спонсор 4", 10_000_000);
-        Sponsor sponsorFife = new Sponsor("Спонсор 5", 10_000_000);
-        Sponsor sponsorSix = new Sponsor("Спонсор 6", 10_000_000);
+        Sponsor sponsorOne = new Sponsor("Спонсор Рокфеллер", 10_000_000);
+        Sponsor sponsorTwo = new Sponsor("Спонсор Народ", 10_000_000);
+        Sponsor sponsorThree = new Sponsor("Спонсор СтоЛото", 10_000_000);
+        Sponsor sponsorFour = new Sponsor("Спонсор Рамзан", 10_000_000);
+        Sponsor sponsorFife = new Sponsor("Спонсор Лелик", 10_000_000);
+        Sponsor sponsorSix = new Sponsor("Спонсор Болик", 10_000_000);
 
         lada.getSponsorArrayList().add(sponsorOne);
         lada.getSponsorArrayList().add(sponsorTwo);
